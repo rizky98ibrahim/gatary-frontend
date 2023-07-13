@@ -1,18 +1,45 @@
-# Vue 3 + TypeScript + Vite
+# Gatary Corporation - Frontend
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This repository contains the frontend implementation for the Gatary Corporation website, built using Vue.js.
 
-## Recommended IDE Setup
+## Prerequisites
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Make sure you have the following software installed on your machine:
 
-## Type Support For `.vue` Imports in TS
+- Node.js
+- npm or yarn
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Installation
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rizky98ibrahim/gatary-frontend.git
+   ```
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Configure the API endpoint:
+   In the `src/api/api.js` file, update the `baseURL` based on the URL of your backend API.
+
+## Usage
+
+1. Start the development server:
+   ```bash
+   npm run serve
+   ```
+
+2. Access the application in your browser:
+   Open your browser and navigate to the URL provided by the Vue CLI.
+
+## Contact
+
+If you have any questions or comments about this repository, please feel free to contact us through the following channels:
+
+- WhatsApp: [0878 0874 0020](https://wa.me/+6287808740020)
+- Gmail: [rizky98ibrahim@gmail.com](mailto:rizky98ibrahim@gmail.com)
+- Twitter: [@rizky98ibrahim](https://twitter.com/rizky98ibrahim)
+- LinkedIn: [Rizky Ibrahim](https://www.linkedin.com/in/rizky98ibrahim)
+- Instagram: [@rizky98ibrahim](https://instagram.com/rizky98ibrahim)
